@@ -528,6 +528,7 @@
                         <dateFormat>yyyy-MM-dd'T'HH:mm:ssZZ</dateFormat>
                         <gitDescribe>
                             <tags>true</tags>
+                            <always>true</always>
                         </gitDescribe>
                     </configuration>
                 </plugin>

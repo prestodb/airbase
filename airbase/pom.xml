@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.zacblanco.airbase</groupId>
+    <groupId>com.facebook.airlift</groupId>
     <artifactId>airbase</artifactId>
-    <version>upgradeToJava17-SNAPSHOT</version>
+    <version>104-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>airbase</name>
@@ -735,9 +735,9 @@
                         <!-- the Maven Release plugin. The "project.version" property cannot be -->
                         <!-- used here as it will resolve to the version of the child project.  -->
                         <dependency>
-                            <groupId>com.github.zacblanco.airbase</groupId>
+                            <groupId>com.facebook.airlift</groupId>
                             <artifactId>airbase-policy</artifactId>
-                            <version>upgradeToJava17-SNAPSHOT</version>
+                            <version>104-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                     <configuration>
@@ -857,9 +857,9 @@
                         <!-- the Maven Release plugin. The "project.version" property cannot be -->
                         <!-- used here as it will resolve to the version of the child project.  -->
                         <dependency>
-                            <groupId>com.github.zacblanco.airbase</groupId>
+                            <groupId>com.facebook.airlift</groupId>
                             <artifactId>airbase-policy</artifactId>
-                            <version>upgradeToJava17-SNAPSHOT</version>
+                            <version>104-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                     <executions>

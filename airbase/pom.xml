@@ -475,6 +475,7 @@
                     <artifactId>git-commit-id-plugin</artifactId>
                     <version>4.0.3</version>
                     <configuration>
+                        <useNativeGit>true</useNativeGit>
                         <!-- Include only properties used above to speed up build (https://github.com/git-commit-id/git-commit-id-maven-plugin/issues/462) -->
                         <includeOnlyProperties>
                             <includeOnlyProperty>\Qgit.build.time</includeOnlyProperty>

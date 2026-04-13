@@ -144,7 +144,7 @@
         <dep.jakarta-servlet.version>6.1.0</dep.jakarta-servlet.version>
         <dep.jakarta-annotation.version>2.1.1</dep.jakarta-annotation.version>
         <dep.bval.version>2.0.6</dep.bval.version>
-        <dep.jackson.version>2.10.0</dep.jackson.version>
+        <dep.jackson.version>2.18.6</dep.jackson.version>
         <dep.jmxutils.version>1.19</dep.jmxutils.version>
         <dep.cglib.version>3.3.0</dep.cglib.version>
         <dep.joda.version>2.9.9</dep.joda.version>
